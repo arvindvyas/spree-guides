@@ -27,7 +27,7 @@ Shipments have the following attributes:
 
 A shipment can go through many different states, as illustrated below.
 
-![Shipment flow](/images/developer/core/shipment_flow.jpg)
+![Shipment flow](https://guides.spreecommerce.org/images/developer/core/shipment_flow.jpg)
 
 An explanation of the different states:
 
@@ -141,7 +141,7 @@ If you are using shipping categories, these can be used to qualify or disqualify
 
 ### Zones
 
-Zones serve as a mechanism for grouping geographic areas together into a single entity. You can read all about how to configure and use Zones in the [Zones Guide](addresses#zones).
+Zones serve as a mechanism for grouping geographic areas together into a single entity. You can read all about how to configure and use Zones in the [Zones Guide](https://guides.spreecommerce.org/user/zones.html).
 
 The Shipping Address entered during checkout will define the zone the customer is in and limit the Shipping Methods available to him.
 
@@ -181,7 +181,8 @@ Spree ships with 5 default Calculators:
 
 Flexible rate is defined as a flat rate for the first product, plus a different flat rate for each additional product.
 
-You can define your own calculator if you have more complex needs. In that case, check out the [Calculators Guide](calculators).
+You can define your own calculator if you have more complex needs. In that case, check out the 
+[Calculators Guide](https://guides.spreecommerce.org/developer/calculators.html).
 
 ## UI
 
@@ -211,7 +212,7 @@ There are a few Spree extensions which provide additional shipping methods, incl
 
 ### Writing Your Own
 
-For more detailed information, check out the section on [Calculators](calculators).
+For more detailed information, check out the section on [Calculators](https://guides.spreecommerce.org/developer/calculators.html).
 
 Your calculator should accept an array of `LineItem` objects and return a cost. It can look at any reachable data, but typically uses the address, the order and the information from variants which are contained in the line_items.
 
